@@ -1,7 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
-  theme: {
+  important:true,
+  content: [
+  './src/**/*.tsx',
+  './index.html'
+], theme: {
     colors:{
       'branco-1': '#F2DDD0',
       'branco-2': '#F2F2F2',
@@ -19,6 +22,7 @@ module.exports = {
       'vermelho-2': '#8C3B42',
       'vermelho-3': '#73172F',
       'vermelho-4': '#400A05',
+      'laranja-1':  '#DB6F16'
 
     },
     extend: {},
