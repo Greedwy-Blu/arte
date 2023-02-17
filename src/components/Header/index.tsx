@@ -1,6 +1,6 @@
 function HeaderBody(){
   return(
-    <section className="mt-6">
+    <section className="my-6 ">
 
       <div className="flex justify-around items-center">
         <div className="h-[300px] w-[300px] bg-laranja-1 "></div>
