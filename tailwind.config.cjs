@@ -22,6 +22,7 @@ module.exports = {
       'vermelho-2': '#8C3B42',
       'vermelho-3': '#73172F',
       'vermelho-4': '#400A05',
+      'vermelho-5': '#600000',
       'laranja-1':  '#DB6F16'
 
     },

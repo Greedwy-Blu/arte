@@ -15,7 +15,7 @@ function TextHeader(){
 
       <p className="text-center">
 
-        <a className="font-semibold text-4xl text-branco-1">A arte nos ajuda a desenvolver nosso senso crítico, imaginário e também interpretativo</a>
+        <a className="font-semibold text-4xl text-[#F2C36B]">A arte nos ajuda a desenvolver nosso senso crítico, imaginário e também interpretativo</a>
 
       </p>
 
