@@ -5,7 +5,7 @@ import imgArtWork2 from  '../../assets/9311cdc8-ef50-4e9c-91b5-25b2dba7fa09-remo
 
 function HeaderBody(){
   return(
-    <section className="my-6 ">
+    <div className="my-6 ">
 
       <div className="flex justify-around items-center ">
         <div className="overflow-hidden h-[400px] w-[300px] rounded-tl-[137px] rounded-tr-[137px] rounded-br-[154px] rounded-bl-[154px]  bg-[#252617] ">
@@ -21,7 +21,7 @@ function HeaderBody(){
         </div>
       </div>
 
-    </section>
+    </div>
   )
 
 }

@@ -10,7 +10,9 @@
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-locomotive-scroll": "^0.2.2",
+    "tslib": "^2.5.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.27",

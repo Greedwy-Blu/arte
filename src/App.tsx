@@ -1,23 +1,32 @@
-import { useState } from 'react'
-import TextHeader from './components/TextHeader'
-import HeaderBody from './components/Header'
-import ArtNoiteEstralada from './components/ArtNoiteEstralada'
-import ArtGirl from './components/ArtGirl'
-import ArtToque from './components/ArtToque'
+import { LocomotiveScrollProvider } from "react-locomotive-scroll";
+import { useRef, useState } from "react";
+import TextHeader from "./components/TextHeader";
+import HeaderBody from "./components/Header";
+import ArtNoiteEstralada from "./components/ArtNoiteEstralada";
+import ArtGirl from "./components/ArtGirl";
+import ArtToque from "./components/ArtToque";
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  const containerRef = useRef(null)
   return (
-    <main>
-    <TextHeader/>
-    <HeaderBody/>
-    <ArtNoiteEstralada/>
-    <ArtGirl/>
-    <ArtToque/>
-
-    </main>
-  )
+    <LocomotiveScrollProvider
+      options={{
+        smooth: true,
+      }}
+      watch={[]}
+      containerRef={containerRef}
+    >
+      <main data-scroll-container ref={containerRef}>
+        <section data-scroll-section   data-scroll-speed="2">
+          <TextHeader />
+          <HeaderBody />
+        </section>
+        <ArtNoiteEstralada data-scroll-section data-scroll-speed="2"/>
+        <ArtGirl data-scroll-section data-scroll-speed="2" />
+        <ArtToque data-scroll-section data-scroll-speed="2" />
+      </main>
+    </LocomotiveScrollProvider>
+  );
 }
 
-export default App
+export default App;
