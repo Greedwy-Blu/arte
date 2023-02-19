@@ -1,8 +1,11 @@
 import imgArt from '../../assets/5c811df3b78f13095baa16dc_Brush.png'
 
+
 function TextHeader(){
+
   return(
-   <header className=''>
+   <header >
+
     <div className='flex justify-center mt-5'>
       <img src={imgArt} alt="" className='h-20 w-20' />
     </div>

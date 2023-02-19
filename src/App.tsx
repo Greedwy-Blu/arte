@@ -6,8 +6,12 @@ import ArtNoiteEstralada from "./components/ArtNoiteEstralada";
 import ArtGirl from "./components/ArtGirl";
 import ArtToque from "./components/ArtToque";
 
+
 function App() {
   const containerRef = useRef(null)
+
+
+
   return (
     <LocomotiveScrollProvider
       options={{
@@ -18,11 +22,12 @@ function App() {
     >
       <main data-scroll-container ref={containerRef}>
         <section data-scroll-section   data-scroll-speed="2">
+
           <TextHeader />
           <HeaderBody />
         </section>
-        <ArtNoiteEstralada data-scroll-section data-scroll-speed="2"/>
-        <ArtGirl data-scroll-section data-scroll-speed="3" />
+        <ArtNoiteEstralada data-scroll-section data-scroll-speed="1"/>
+        <ArtGirl data-scroll-section data-scroll-speed="1" />
         <ArtToque data-scroll-section data-scroll-speed="2" />
       </main>
     </LocomotiveScrollProvider>
