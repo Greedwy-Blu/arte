@@ -19,7 +19,7 @@ function ArtNoiteEstralada(){
 
 
         </div>
-        <div className='mt-[500px] -translate-y-20 -translate-x-24'><a className=' text-[#F2C36B] font-bold'>CAMPO DE TRIGO COM CORVOS</a></div>
+        <div className='mt-[500px] -translate-y-20 -translate-x-24'><a className=' text-[#F2C36B] '>CAMPO DE TRIGO COM CORVOS</a></div>
         </div>
 
 </section>
