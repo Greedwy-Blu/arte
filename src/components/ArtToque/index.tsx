@@ -8,7 +8,7 @@ function ArtToque(){
     <section className="bg-cinza-2 h-[800px] w-full ">
 
     <div className="flex justify-center translate-y-20">
-    <a className="text-5xl text-[#F2C36B]">A CRIAÇÃO DE ADÃO</a>
+    <a className="text-5xl text-branco-1">A CRIAÇÃO DE ADÃO</a>
     </div>
 
   <div className='flex justify-center mt-32'>
