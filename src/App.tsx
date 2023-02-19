@@ -22,7 +22,7 @@ function App() {
           <HeaderBody />
         </section>
         <ArtNoiteEstralada data-scroll-section data-scroll-speed="2"/>
-        <ArtGirl data-scroll-section data-scroll-speed="2" />
+        <ArtGirl data-scroll-section data-scroll-speed="3" />
         <ArtToque data-scroll-section data-scroll-speed="2" />
       </main>
     </LocomotiveScrollProvider>
