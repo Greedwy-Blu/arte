@@ -1,8 +1,14 @@
 import imgNoiteEstrelada from "../../assets/8deaf0b3-2477-4a93-a246-f69c5dbb188e.jpeg";
 import imgCampo from "../../assets/Campo de trigo com corvos, 1890 ( Vincent Van Gogh.jpeg";
+
+
 function ArtNoiteEstralada() {
+
+
   return (
     <section className="bg-[#033649] h-[800px] w-full mt-32 ">
+
+
       <div className="flex justify-center translate-y-20 -translate-x-24">
         <a className="text-5xl text-[#F2C36B]">NOITE ESTRELADA</a>
       </div>
